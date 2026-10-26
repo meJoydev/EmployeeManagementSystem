@@ -58,9 +58,6 @@ All endpoints except register and login require a JWT.
 - Bulk create is all-or-nothing (one transaction).
 - Validation is called manually (FluentValidation); errors are handled by a global exception handler.
 
-## License
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
-
 ## Author
 **Joydev Chand**
 GitHub: [@meJoydev](https://github.com/meJoydev)
