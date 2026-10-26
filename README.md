@@ -2,6 +2,8 @@
 
 A REST API that replaces manual HR record-keeping: manage employees and departments, track daily attendance, generate monthly salaries from attendance, and export PDF/Excel reports. Built with **ASP.NET Core 8** using **Clean Architecture**, with **MySQL** as the database.
 
+**Status:** Backend complete. The React + TypeScript frontend is in progress and will be added to this repository.
+
 ## Features
 - **Authentication:** register and login with BCrypt-hashed passwords and JWT bearer tokens (8-hour expiry)
 - **Employees:** create, view, update and soft-delete, plus **bulk create** (all-or-nothing) and **bulk delete**
